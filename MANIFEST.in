@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dyka *.css
+recursive-include dyka *.csv
+recursive-include dyka *.html
+recursive-include dyka *.ico
+recursive-include dyka *.js
+recursive-include dyka *.json
+recursive-include dyka *.md
+recursive-include dyka *.png
+recursive-include dyka *.py
+recursive-include dyka *.svg
+recursive-include dyka *.txt
+recursive-exclude dyka *.pyc
